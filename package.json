@@ -1,15 +1,24 @@
 {
-    "name": "ajaxhelperdemo",
-    "version": "1.0.0",
-    "description": "An application to handle multiple AJAX request on a custom promise based approach",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Surajit.Rana",
-    "license": "MIT",
-    "devDependencies": {
-        "bower": "^1.8.0",
-        "http-server": "^0.9.0"
-    }
+  "name": "ajaxhelperdemo",
+  "version": "1.0.0",
+  "description": "An application to handle multiple AJAX request on a custom promise based approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Surajit.Rana",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajitrana1985/angular-ajax-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surajitrana1985/angular-ajax-helper/issues"
+  },
+  "homepage": "https://github.com/surajitrana1985/angular-ajax-helper#readme"
 }
