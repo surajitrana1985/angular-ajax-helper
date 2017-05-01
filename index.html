@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Apttus Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="core\core.style.css">
+    <link rel="stylesheet" href="libs\bootstrap\dist\css\bootstrap.min.css">
+    <script type="text/javascript" src="libs\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="libs\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs\angular\angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="core\core-http.factory.js"></script>
+    <script type="text/javascript" src="tree-view\tree-view.drv.js"></script>
+</head>
+
+<body data-ng-app="apttusApp" data-ng-controller="apttusApp.mainCtrl as mainCtrl">
+    <div class="container">
+        <div class="row">
+            <label class="core-label">Enter URLs (GET Request)</label>
+        </div>
+        <div class="row">
+            <textarea rows="5" cols="100" placeholder="Enter URLs (comma separated) for Batch AJAX Request" data-ng-model="mainCtrl.urlField"></textarea>
+        </div>
+        <div class="row">
+            <button class="btn btn-info core-btn-info" type="submit" data-ng-click="mainCtrl.onSubmit()">Submit AJAX Request</button>
+        </div>
+        <div class="row">
+            <label class="core-label">Response</label>
+        </div>
+        <div class="row">
+            <textarea rows="5" cols="100" placeholder="Response from Custom Promise" data-ng-model="mainCtrl.responseArr"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>

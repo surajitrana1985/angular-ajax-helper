@@ -1,0 +1,14 @@
+{
+    "name": "ajaxhelperdemo",
+    "description": "An application to handle multiple AJAX request on a custom promise based approach",
+    "main": "index.js",
+    "authors": [
+        "Surajit.Rana"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "devDependencies": {
+        "angular": "^1.6.4",
+        "bootstrap": "^3.3.7"
+    }
+}
